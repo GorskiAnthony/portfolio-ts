@@ -50,16 +50,16 @@ const data = {
 
 	projects: [
 		{
-			title: "Test project",
+			name: "Test project",
 			description: "👨‍🎨 lorem.",
-			tags: ["template", "portfolio", "reactjs", "tailwindcss"],
-			link: "https://github.com/GorskiAnthony/retro-wcs",
+			topics: ["template", "portfolio", "reactjs", "tailwindcss"],
+			html_url: "https://github.com/GorskiAnthony/retro-wcs",
 		},
 		{
-			title: "Test project",
+			name: "Test project",
 			description: "⚡ Test",
-			tags: ["website", "portfolio", "nextjs", "tailwindcss"],
-			link: "https://github.com/GorskiAnthony/retro-wcs",
+			topics: ["website", "portfolio", "nextjs", "tailwindcss"],
+			html_url: "https://github.com/GorskiAnthony/retro-wcs",
 		},
 	],
 };

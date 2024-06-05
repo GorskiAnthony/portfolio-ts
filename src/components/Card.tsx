@@ -30,7 +30,10 @@ const Card: React.FC<CardProps> = ({
 						alt="Profile face"
 					/>
 					<span className="absolute bottom-0 right-0 block -translate-x-[85px] -translate-y-1 transform rounded-full border-2 border-white">
-						<span className="block h-4 w-4 rounded-full bg-red-400" />
+						<span className="relative flex">
+							<span className="block h-4 w-4 rounded-full bg-red-500 absolute" />
+							<span className="block h-4 w-4 rounded-full bg-red-500 animate-ping" />
+						</span>
 					</span>
 				</div>
 				<div className="text-center mt-5">

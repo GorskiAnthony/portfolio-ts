@@ -14,6 +14,11 @@ const router = createBrowserRouter([
 			{
 				path: "/",
 				element: <App />,
+				loader: async () => {
+					return await fetch(
+						"https://api.github.com/users/GorskiAnthony/repos"
+					);
+				},
 			},
 		],
 	},
