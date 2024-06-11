@@ -11,6 +11,7 @@ const data = {
 			twitter: "https://x.com/Gorski_anthony",
 			email: "anthony.developpeurweb@gmail.com",
 			youtube: "https://www.youtube.com/channel/UCWVgHNcrKtH_mTf9aMPA_4g",
+			twitch: "https://www.twitch.tv/gorski_anthony",
 		},
 	},
 	about: {
@@ -50,16 +51,32 @@ const data = {
 
 	projects: [
 		{
-			title: "Test project",
-			description: "👨‍🎨 lorem.",
-			tags: ["template", "portfolio", "reactjs", "tailwindcss"],
+			title: "Download Video",
+			description:
+				"📹 Ce site permet de télécharger des vidéos depuis une lien youtube ou X (twitter)",
+			tags: ["Docker", "Nodejs", "Vitejs", "TailwindCSS"],
+			link: "https://github.com/GorskiAnthony/download-videos",
+		},
+		{
+			title: "Retro Wild Code School",
+			description:
+				"🖥️ retro-wcs permet de faire une retrospective avec des websockets",
+			tags: ["websocket", "Typescript", "NextJS", "TailwindCSS"],
 			link: "https://github.com/GorskiAnthony/retro-wcs",
 		},
 		{
-			title: "Test project",
-			description: "⚡ Test",
-			tags: ["website", "portfolio", "nextjs", "tailwindcss"],
-			link: "https://github.com/GorskiAnthony/retro-wcs",
+			title: "cli-wild",
+			description:
+				"🖥️ cli-wild est un package npm qui permet de créer des controlleurs & des modèles pour le framework Harmonia",
+			tags: ["NPM", "cli-wild", "Framework", "Harmonia"],
+			link: "https://github.com/GorskiAnthony/documentation-harmonia",
+		},
+		{
+			title: "Documentation Framework Harmonia",
+			description:
+				"🎵 Harmonia est un framework pédagogique développé par la Wild Code School !",
+			tags: ["Docusaurus", "Harmonia", "Framework", "WildCodeSchool"],
+			link: "https://github.com/GorskiAnthony/documentation-harmonia",
 		},
 	],
 };

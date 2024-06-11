@@ -1,8 +1,6 @@
 import profile from "../assets/profile.png";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaYoutube, FaRegEnvelope, FaTwitch } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaRegEnvelope } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
 
 interface CardProps {
 	name: string;
@@ -12,13 +10,14 @@ interface CardProps {
 		twitter: string;
 		email: string;
 		youtube: string;
+		twitch: string;
 	};
 }
 
 const Card: React.FC<CardProps> = ({
 	name,
 	title,
-	social: { github, twitter, email, youtube },
+	social: { github, twitter, email, youtube, twitch },
 }) => {
 	return (
 		<div className="w-full">
@@ -30,6 +29,7 @@ const Card: React.FC<CardProps> = ({
 						alt="Profile face"
 					/>
 					<span className="absolute bottom-0 right-0 block -translate-x-[85px] -translate-y-1 transform rounded-full border-2 border-white">
+						<span className="block h-4 w-4 rounded-full bg-red-400 absolute animate-ping" />
 						<span className="block h-4 w-4 rounded-full bg-red-400" />
 					</span>
 				</div>
@@ -71,6 +71,13 @@ const Card: React.FC<CardProps> = ({
 						>
 							<FaYoutube />
 							<span className="sr-only">Youtube</span>
+						</a>
+						<a
+							className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-purple-500 hover:bg-purple-500 rounded-full hover:text-white transition-colors duration-300"
+							href={twitch}
+						>
+							<FaTwitch />
+							<span className="sr-only">Twitch</span>
 						</a>
 					</div>
 				</div>

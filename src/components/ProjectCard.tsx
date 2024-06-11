@@ -15,7 +15,7 @@ const ProjectCard: React.FC<ProjectProps> = ({
 	link,
 }) => {
 	return (
-		<div className="group w-full sm:w-1/2 m-4 mx-auto p-6 rounded-xl border-2 border-gray-300">
+		<div className="group w-full  m-4 mx-auto p-6 rounded-xl border-2 border-gray-300">
 			<a href={link}>
 				<h1 className="text-xl text-center font-bold">
 					{title}{" "}

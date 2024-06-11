@@ -7,8 +7,8 @@ export default function Footer() {
 				<div className="mt-8 order-1">
 					<p className="text-center text-xs leading-5 text-gray-500 flex items-center">
 						&copy; {new Date().getFullYear()}, fait avec{" "}
-						<HeartIcon className="h-4 w-4 mx-1" /> Anthony Gorski.
-						All rights reserved.
+						<HeartIcon className="h-4 w-4 mx-1 text-red-600" />{" "}
+						Anthony Gorski. All rights reserved.
 					</p>
 				</div>
 			</div>
