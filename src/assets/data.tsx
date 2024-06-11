@@ -51,30 +51,30 @@ const data = {
 
 	projects: [
 		{
-			title: "Download Video",
+			title: "MediaMagnet",
 			description:
-				"📹 Ce site permet de télécharger des vidéos depuis une lien youtube ou X (twitter)",
+				"📹 This site allows you to download videos from a youtube or X (twitter) link.",
 			tags: ["Docker", "Nodejs", "Vitejs", "TailwindCSS"],
 			link: "https://github.com/GorskiAnthony/download-videos",
 		},
 		{
 			title: "Retro Wild Code School",
 			description:
-				"🖥️ retro-wcs permet de faire une retrospective avec des websockets",
+				"🖥️ retro-wcs allows you to retrospect with websockets",
 			tags: ["websocket", "Typescript", "NextJS", "TailwindCSS"],
 			link: "https://github.com/GorskiAnthony/retro-wcs",
 		},
 		{
 			title: "cli-wild",
 			description:
-				"🖥️ cli-wild est un package npm qui permet de créer des controlleurs & des modèles pour le framework Harmonia",
+				"🖥️ cli-wild is an npm package for creating controllers & templates for the Harmonia framework.",
 			tags: ["NPM", "cli-wild", "Framework", "Harmonia"],
 			link: "https://github.com/GorskiAnthony/documentation-harmonia",
 		},
 		{
 			title: "Documentation Framework Harmonia",
 			description:
-				"🎵 Harmonia est un framework pédagogique développé par la Wild Code School !",
+				"🎵 Harmonia is an educational framework developed by Wild Code School!",
 			tags: ["Docusaurus", "Harmonia", "Framework", "WildCodeSchool"],
 			link: "https://github.com/GorskiAnthony/documentation-harmonia",
 		},
